@@ -6,7 +6,7 @@ import java.util.Scanner;
 public class Inventory {
     Scanner sc = new Scanner(System.in);
     Databaseactions db = new Databaseactions();
-    private ArrayList<Smartphone> smartphonelist = new ArrayList<>(); //global collection of only smartphone type
+    private ArrayList<Smartphone> smartphonelist = new ArrayList<>(); //Global collection of only smartphone type
 
     public ArrayList<Smartphone> getSmartphonelist() {
         return smartphonelist;
